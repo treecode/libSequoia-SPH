@@ -18,7 +18,7 @@ struct ds64
 {
   float2 val;
   __host__ __device__ ds64() {}
-  __host__ __device__ ds64(float x) : val(make_float2(x, x)) {}
+  __host__ __device__ ds64(float x) : val(make_float2(x, 0.0f)) {}
   __host__ __device__ ds64 operator+=(const float x) 
   {
     const float vx = val.x + x;
