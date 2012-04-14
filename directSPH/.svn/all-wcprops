@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/starsmasher/!svn/ver/99/parallel_bleeding_edge/src/SPHgrav_lib
+END
+cuVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/starsmasher/!svn/ver/99/parallel_bleeding_edge/src/SPHgrav_lib/cuVector.h
+END
+cutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/starsmasher/!svn/ver/99/parallel_bleeding_edge/src/SPHgrav_lib/cutil.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/starsmasher/!svn/ver/99/parallel_bleeding_edge/src/SPHgrav_lib/Makefile
+END
+grav_force_direct.cu
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/projects/starsmasher/!svn/ver/99/parallel_bleeding_edge/src/SPHgrav_lib/grav_force_direct.cu
+END
+cuVec3.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/starsmasher/!svn/ver/99/parallel_bleeding_edge/src/SPHgrav_lib/cuVec3.h
+END
