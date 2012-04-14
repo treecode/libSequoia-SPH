@@ -1,0 +1,8 @@
+-- This is the Sequoia library itself.
+
+The funcationality is self-explainatory in
+  src/sequoiaInterface.cpp
+
+or checkout  ../example/grav_force_tree.cu or ../example/main.cpp
+
+

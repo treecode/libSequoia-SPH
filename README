@@ -1,0 +1,5 @@
+libSeqouia - an Bonsai spin-off library that can be used with shared-timestep SPH codes
+
+projects that use libSequoia:
+   starsmasher
+

@@ -1,0 +1,21 @@
+-- This is an example that uses libSequoia --
+
+This example generates a functionality for f77 codes, with the following simple API:
+(see grav_force_tree.cu for details):
+
+ subroutine gpu_init_dev(dev_id, theta) ! dev_id is the GPU_ID (starting from 0), and theta is an opening angle (use theta <~ 0.5)
+ subroutine firsthalf_grav_force(n, nlow, nsize, x, y, z, mass, range2)   ! initializes force caluclation on GPU
+    concurently do stuff on CPU 
+ subroutine lasthalf_grav_force(n, ax, ay, az, pot)     ! complete force calculation on GPU and collects the results 
+
+here, n is total number of particles and is the size of the following arrays:
+  x,y,z - positions
+  mass  - masses
+  range2 - the range^2 of a particle, because the gravitational force is modified for r_ij < range
+  ax,ay,az - gravitational accelerations
+  pot      - gravitational potential
+ 
+Starsmasher, to be soon publicly released by James Lombardi, already uses this library for stellar mergers calculations.
+
+
+
